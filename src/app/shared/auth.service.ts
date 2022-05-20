@@ -61,7 +61,7 @@ this.sendEmailForVerification(res.user);
     
     })
 
-    
+    //hello word
   }
   googleSignIn() {
     return this.fireauth.signInWithPopup(new GoogleAuthProvider).then(res => {
